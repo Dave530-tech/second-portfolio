@@ -1,0 +1,35 @@
+body{
+    background-color: blueviolet;
+}
+.topnav{
+    overflow: hidden;
+    height: 60px;
+    display: flex;
+    background-color: black;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.topnav a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+}
+
+.topnav a:hover{
+    background-color: blueviolet;
+    color: red;
+    transition: all 0.5s ease;
+}
+
+.home img{
+    float: left;
+    color: azure;
+}
+
+.home-content p{
+    margin: auto;
+    align-items: baseline;
+}
