@@ -1,5 +1,5 @@
 body{
-    background-color: blueviolet;
+    background: rgb(128, 128, 185);
 }
 .topnav{
     overflow: hidden;
@@ -7,15 +7,17 @@ body{
     display: flex;
     background-color: black;
     justify-content:space-around;
-    align-items: center;
+    text-align: right;
     margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .topnav a{
     text-decoration: none;
     color: white;
     font-size: 17px;
-    text-align: center;
+    
 }
 
 .topnav a:hover{
@@ -25,8 +27,12 @@ body{
 }
 
 img{
-    width: 300px;
-    margin: 30px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: left;
+    height: 50vh;
+    margin: 3% auto;
 }
 
 .home-content p{
